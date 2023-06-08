@@ -34,7 +34,7 @@ Essa é uma api restful desenvolvida em php.
 - A classe Request, é quem fica responsavel por tratar e receber os dados da requisição, é nela que é feito uma sanatização dos dados inicialmente, antes de entregar para a rota utilizar os parametros.
 - A classe de Response, é quem cuida da parte de retorno dos dados da requisição. É ela quem seta os headers, e quem converte a resposta para json.
 
-### Exceções (Exceptions)
+### Controlador de Exceções (handler Exceptions)
 - As exception são tratas por um HandlerException, nele fica todo o tratamento das exceptions. Caso a constante IS_DEV esteja true, alguns erros serão mostrados em tela, para facilitar o desenvolvimento.
 
 ## Endpoints
